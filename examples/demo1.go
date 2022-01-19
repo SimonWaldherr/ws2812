@@ -2,11 +2,12 @@ package main
 
 import (
 	"flag"
-	pixarray "github.com/Jon-Bright/ledctl/pixarray"
-	cc "github.com/SimonWaldherr/ColorConverterGo"
 	"log"
 	"os"
 	"time"
+
+	cc "github.com/SimonWaldherr/ColorConverterGo"
+	pixarray "github.com/SimonWaldherr/ws2812/pixarray"
 )
 
 var lpd8806Dev = flag.String("dev", "/dev/spidev0.0", "The SPI device on which LPD8806 LEDs are connected")

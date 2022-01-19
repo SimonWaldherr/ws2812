@@ -1,7 +1,7 @@
 package pixarray
 
 import (
-	rpi "github.com/Jon-Bright/ledctl/rpi"
+	rpi "github.com/SimonWaldherr/ws2812/rpi"
 )
 
 type LEDStrip interface {
